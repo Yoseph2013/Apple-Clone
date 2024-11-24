@@ -1,9 +1,15 @@
+import Hero from "./Components/Hero"
+import HighLights from "./Components/HighLights"
+import Navbar from "./Components/Navbar.jsx"
 
 
-export default function App() {
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello World!
-    </h1>
+    <main className="bg-black">
+    <Navbar/>
+    <Hero/>
+    <HighLights/>
+    </main>
   )
 }
+export default App
